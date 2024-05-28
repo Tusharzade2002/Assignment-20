@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 20</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+     .main{
+        display: flex;
+     }
+     .side-bar{
+              background-color: black;
+              color: white  ;
+              min-height: 100vh;
+              width: 200px;
+
+     }
+     .content{
+         min-height: 100vh;
+         width: 100%;
+     }
+     .side-bar-container{
+      height: 35px ;
+      width: 150px;
+      background-color: white;
+      margin: 9px;
+      border-radius: 3px;
+      padding: 3px  ;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     }
+     .side-bar-container:hover{
+      background-color: #b3ffff;
+     }
+     .side-bar-container span{
+      color: black;
+      font-size: larger;
+     }
+     .side-bar-container img{
+              height: 30px;
+     }
+</style>
+<body>
+    <div class="main">
+        <div class="side-bar">
+              <a class="side-bar-container">
+                <img src="./images/home.png"/>
+                <span>Home</span>
+                </a>
+              <a class="side-bar-container">
+                <img src="./images/homework.png"/>
+                <span>Courses</span>
+              </a>
+              <a class="side-bar-container">
+                <img src="./images/account.png"/>
+                <span>Profile</span>
+              </a>
+              <a class="side-bar-container">
+                <img src="./images/settings.png"/>
+                <span>setting</span>
+              </a>
+        </div>
+        <div class="content">
+                 content
+        </div>
+
+    </div>
+</body>
+</html>
