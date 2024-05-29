@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ .main{
+    display: flex;
+ }
+ .side-bar{
+          background-color: black;
+          color: white  ;
+          min-height: 100vh;
+          width: 200px;
+
+ }
+ .content{
+     min-height: 100vh;
+     width: 100%;
+ }
+ .side-bar-container{
+  height: 35px ;
+  width: 150px;
+  background-color: white;
+  margin: 9px;
+  border-radius: 3px;
+  padding: 3px  ;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ text-decoration: none;
+ }
+ .side-bar-container:hover{
+  background-color: #b3ffff;
+  box-shadow: 0 0 6px 2px white;
+  transition: 1s;
+ }
+ .side-bar-container span{
+  color: black;
+  font-size: larger;
+ }
+ .side-bar-container img{
+          height: 30px;
+ }
+ .active-menu{
+    background-color: #b3ffff;
+  box-shadow: 0 0 6px 2px white;
+ }
+ .fotter{
+    height: 17px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;   
+ }
+ .fotter img{
+    height: 20px;
+ }
+ @media screen and (max-width: 600px) {
+    .side-bar{
+        display: none;
+    }
+    .content{
+        min-height: 98vh;
+        width: 100%;
+    }
+   
+ }
+ 
+ @media screen and (min-width: 600px) and (max-width: 768px) {
+    .side-bar{
+        display: none;
+    }
+    .content{
+        min-height: 98vh;
+        width: 100%;
+    }
+  }
+
+  /* Tablet Devices */
+
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .fotter{
+        display: none;
+      }
+  }
+
+  /* Dekstop device */
+
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .fotter{
+        display: none;
+      }
+  }

@@ -5,73 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 20</title>
 </head>
-<style>
-    body{
-        margin: 0px;
-        padding: 0px;
-    }
-     .main{
-        display: flex;
-     }
-     .side-bar{
-              background-color: black;
-              color: white  ;
-              min-height: 100vh;
-              width: 200px;
 
-     }
-     .content{
-         min-height: 100vh;
-         width: 100%;
-     }
-     .side-bar-container{
-      height: 35px ;
-      width: 150px;
-      background-color: white;
-      margin: 9px;
-      border-radius: 3px;
-      padding: 3px  ;
-     display: flex;
-     align-items: center;
-     justify-content: space-evenly;
-     }
-     .side-bar-container:hover{
-      background-color: #b3ffff;
-      box-shadow: 0 0 6px 2px white;
-      transition: 1s;
-     }
-     .side-bar-container span{
-      color: black;
-      font-size: larger;
-     }
-     .side-bar-container img{
-              height: 30px;
-     }
-</style>
+<link rel="stylesheet" href="stylesheet.css"></link>
 <body>
     <div class="main">
         <div class="side-bar">
-              <a class="side-bar-container">
+              <a  class="side-bar-container  active-menu">
                 <img src="./images/home.png"/>
                 <span>Home</span>
                 </a>
-              <a class="side-bar-container">
+              <a href="./pages/courses.html" class="side-bar-container">
                 <img src="./images/homework.png"/>
                 <span>Courses</span>
               </a>
-              <a class="side-bar-container">
+              <a href="./pages/profile.html" class="side-bar-container">
                 <img src="./images/account.png"/>
                 <span>Profile</span>
               </a>
-              <a class="side-bar-container">
+              <a href="./pages/setting.html" class="side-bar-container">
                 <img src="./images/settings.png"/>
                 <span>setting</span>
               </a>
         </div>
         <div class="content">
-                 content
+               This is profile page
         </div>
-
     </div>
+    <footer class="fotter">
+      <a class="fotter-topic" href="./index.html">
+        <img src="./images/home.png"/>
+      </a>
+      <a class="fotter-topic" href="./pages/courses.html">
+        <img src="./images/homework.png"/>
+      </a>
+      <a class="fotter-topic" href="./pages/profile.html">
+        <img src="./images/account.png"/>
+      </a>
+      <a class="fotter-topic" href="./pages/setting.html">
+        <img src="./images/settings.png"/>
+      </a>
+</footer>
 </body>
 </html>
