@@ -92,3 +92,8 @@ body{
         display: none;
       }
   }
+  @media screen and (min-width: 993px){
+    .fotter{
+        display: none;
+      }
+  }
