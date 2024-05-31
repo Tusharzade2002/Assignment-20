@@ -56,6 +56,12 @@ body{
  .fotter img{
     height: 20px;
  }
+ @media screen and (max-width: 465px){
+            .fotter{
+               position: fixed;
+               bottom: 0px;
+            }
+ }
  @media screen and (max-width: 600px) {
     .side-bar{
         display: none;
